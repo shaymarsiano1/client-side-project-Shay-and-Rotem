@@ -1,0 +1,151 @@
+
+body {
+    margin: 20px;
+    font-size: 20px;
+    color:#2E5077;
+    font-family: Halvetica, sans-serif;
+}
+
+h1
+{
+    width: 100%;
+    display: block;
+    float:none;
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: 10px;
+    color:#2E5077;
+}
+
+
+#pic{
+    float: right;
+    width: 450px;
+    height: 550px;
+    border: white 10px solid;
+}
+
+#headingP{
+    text-align: center;
+    font-size: 50px;
+    color: #79D7BE;
+}
+
+#desired-expense{
+    padding-top: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.add-remove-forms{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    }
+
+#expense-form {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 80px auto; /* Centers the form horizontally */
+    width: 50%;   /* Set a fixed width for the form */
+}
+
+#remove-form{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    margin: 80px auto; /* Centers the form horizontally */
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+button {
+    margin-top: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.red-btn{
+    background-color: rgba(224, 37, 37, 0.93);
+
+}
+.green-btn{
+    background-color: #79D7BE
+
+}
+.green-btn:hover {
+    background-color: #4DA1A9;
+}
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: #79D7BE;
+
+}
+
+canvas {
+    max-width: 500px;
+    max-height: 500px;
+}
+#expensesChart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#generateReportBtn
+{
+    width:50%;
+}
+#clearButton
+{
+    width:50%;
+}
+
+.report-btn{
+    display: flex;
+    gap: 15px;
+}
+.red-btn:hover {
+    background-color: rgba(224, 37, 37, 0.62);
+}
